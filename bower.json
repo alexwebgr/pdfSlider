@@ -1,0 +1,27 @@
+{
+    "name" : "pdfSlider",
+    "version" : "2.2.0",
+    "homepage" : "https://github.com/alexwebgr/pdfSlider",
+    "authors" : [
+        "alexwebgr>"
+    ],
+    "main" : "/src/pdfSlider.js",
+    "keywords" : [
+        "pdf",
+        "slider",
+        "jquery"
+    ],
+    "license" : "MIT",
+    "ignore" : [
+        "example",
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+
+    "dependencies" : {
+        "jquery" : "2.1.*"
+    }
+}

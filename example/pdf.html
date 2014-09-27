@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>pdfSlider</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <link type="text/css" href="../src/pdfSlider.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="../src/pdfSlider.js"></script>
+
+    <script type="text/javascript">
+        $(function($) {
+            $("#carousel").pdfSlider();
+        });
+    </script>
+</head>
+<body>
+    <div id="carousel">
+        <object data="pdf/original.pdf" type="application/pdf" data-caption="original"></object>
+        <object data="pdf/samuel.pdf" type="application/pdf" data-caption="samuel"></object>
+        <object data="pdf/bacon.pdf" type="application/pdf" data-caption="bacon"></object>
+        <object data="pdf/beer.pdf" type="application/pdf" data-caption="beer"></object>
+        <object data="pdf/http___www_cipsum_com_.pdf" type="application/pdf" data-caption="corporate"></object>
+    </div>
+</body>
+</html>

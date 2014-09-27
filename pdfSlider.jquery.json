@@ -1,0 +1,35 @@
+{
+    "name": "pdfSlider",
+    "title": "pdfSlider",
+    "description": "simple slider originally created for pdf files but can be used for any content.",
+    "keywords": [
+        "pdf",
+        "slider",
+        "animation"
+    ],
+    "version": "2.2.0",
+    "author": {
+        "name": "alexwebgr",
+        "url": "https://github.com/alexwebgr"
+    },
+    "maintainers": [
+        {
+            "name": "alex",
+            "email" : "email@alex-web.gr",
+            "url": "http://alex-web.gr"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/alexwebgr/pdfSlider/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/alexwebgr/pdfSlider/issues",
+    "homepage": "http://alexwebgr.github.io/pdfSlider",
+    "docs": "https://github.com/alexwebgr/pdfSlider",
+    "download": "https://github.com/alexwebgr/pdfSlider.git",
+    "dependencies": {
+        "jquery": ">=2.1.0"
+    }
+}

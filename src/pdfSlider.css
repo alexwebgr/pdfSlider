@@ -1,0 +1,85 @@
+.pdfSlider_rootContainer
+{
+    position : relative;
+}
+
+.pdfSlider_rootContainer .pdfSlider_button
+{
+    position : absolute;
+    background : #333;
+    width : 50px;
+    height : 50px;
+    z-index : 1000;
+}
+.pdfSlider_rootContainer .pdfSlider_prev
+{
+    margin-top: -25px;
+    top : 50%;
+    left : 0;
+}
+.pdfSlider_rootContainer .pdfSlider_next
+{
+    margin-top: -25px;
+    top : 50%;
+    right : 0;
+}
+
+.pdfSlider_rootContainer .pdfSlider_close
+{
+    top: 0;
+    right: 0;
+    background: #000;
+    width: 20px;
+    height: 20px;
+    z-index: 2000;
+}
+
+.pdfSlider_rootContainer .pdfSlider_hideControls
+{
+    right: 0;
+    bottom: -30px;
+    width: auto;
+    height: auto;
+    background: none;
+}
+
+.pdfSlider_rootContainer .pdfSlider_slidesContainer
+{
+    position: relative;
+}
+
+.pdfSlider_rootContainer .pdfSlider_slideWrapper
+{
+    position : absolute;
+    top : 0;
+    left : 0;
+    overflow: hidden;
+}
+
+.pdfSlider_rootContainer .pdfSlider_slideWrapper object
+{
+    width: 100%;
+    height: 100%;
+}
+
+.pdfSlider_rootContainer .pdfSlider_thumbsContainer
+{
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 100%;
+}
+
+.pdfSlider_rootContainer .pdfSlider_thumbsContainer li
+{
+    float: left;
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+
+.pdfSlider_rootContainer .pdfSlider_activeThumb
+{
+    background: #000000;
+    color: #ffffff;
+}

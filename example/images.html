@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>pdfSlider</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <link type="text/css" href="../src/pdfSlider.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="../src/pdfSlider.js"></script>
+
+    <script type="text/javascript">
+        $(function($)
+        {
+            $("#carousel").pdfSlider({
+                item : "img",
+                itemWidth : 600,
+                itemHeight : 400
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="carousel">
+        <img src="images/121072076.jpg" alt="" />
+        <img src="images/153584846.jpg" alt="" />
+        <img src="images/78485259.jpg" alt="" />
+        <img src="images/91410116.jpg" alt="" />
+    </div>
+</body>
+</html>
